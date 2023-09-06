@@ -14,9 +14,9 @@ let anoInicial = 2023;
 let  anoFim = 2033;
 let aumento = 1.5 / 100
 let i
-for (i = anoInicial + 1; i <= anoFim; i++){
+for (i = anoInicial ; i <= anoFim; i++){
     salario = salario + (salario * aumento)
-    console.log( salario.toFixed(2))
+    console.log("R$" + salario.toFixed(2) + " - " + i)
     aumento = 2 * aumento
 }
 
